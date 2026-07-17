@@ -26,7 +26,9 @@ Sorting combined with the two-pointer technique reduces the
 problem from checking all possible quadruplets to an efficient
 O(n³) solution while avoiding duplicate answers.
 */
-
+#include <vector>
+#include <algorithm>
+using namespace std;
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) 
